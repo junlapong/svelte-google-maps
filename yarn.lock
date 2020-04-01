@@ -1700,6 +1700,11 @@ supports-color@^4.0.0:
   dependencies:
     has-flag "^2.0.0"
 
+svelte-google-maps@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-google-maps/-/svelte-google-maps-0.1.0.tgz#1e277b38d57b1c4895c1251496f28f627e358fea"
+  integrity sha512-3LIpPGlqLbZ9sDt+S1ySGpvoxYqn5eepgCAmI90VncTXLywi3UtBU+IN/PmGHRsgGzs8f2F7G2o3VdzJLt7f9Q==
+
 svelte@^1.46.0, svelte@^1.51.0:
   version "1.51.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-1.51.0.tgz#2a59b63dfa080c961ce1be4fff23aa7fef809456"

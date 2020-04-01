@@ -1,7 +1,9 @@
 <div class="sm:flex border border-grey border-solid">
+<!-- 
   <div ref:background class="sm:w-64">
     <img class="p-3 mt-4" src="public/pulse-logo-dark.png" alt="GRTC Pulse">
   </div>
+ -->
   <div ref:container class="w-full border-b border-grey border-solid">
     <Map :map defer bind:center bind:zoom>
       {{#each stations as station}}
@@ -51,10 +53,10 @@
   const API_KEY = process.env.API_KEY;
   const icon = {
     path: 'M 0,0 m -2,0 a 2,2 0 2,0 4,0 a 2,2 0 2,0 -4,0',
-    fillColor: '#61bb46',
+    fillColor: '#ff3d00',
     fillOpacity: 1,
     scale: 3,
-    strokeColor: '#005da5',
+    strokeColor: '#ff3d00',
     strokeWeight: 2.5
   };
 
@@ -65,7 +67,7 @@
       return {
         map: new Context(API_KEY, { beta: true }),
         center,
-        zoom: 13,
+        zoom: 14,
         stations,
         route,
         icon,
